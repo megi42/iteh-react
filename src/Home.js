@@ -5,7 +5,9 @@ import './Home.css';
 function Home(){
     return(
         <div>
-            <h1>Kolekcija jesen/zima za male princeze</h1>
+            <br>
+            </br>
+            <h2>Kolekcija jesen/zima za male princeze</h2>
             <div className="products">
             {ImgItems.map((item, index) => {
                         return (
