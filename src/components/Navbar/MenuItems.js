@@ -9,11 +9,5 @@ export const MenuItems = [
         url: '/contact',
         cName: 'nav-links'
     },
-   
-    {
-        title: 'Uloguj se',
-        url: '#',
-        cName: 'nav-links-mobile'
-    }
 
 ]
