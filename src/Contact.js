@@ -3,8 +3,8 @@ import Form from './components/Form';
 
 function Contact(){
     const kontakt={
-        adresa: "Tuzlanska 12",
-        telefon: "061/6448004"
+        adresa: "Bulevar Mihajla Pupina 10, Beograd",
+        telefon: "069/295-48-29"
     }
     return(
         <div>
@@ -17,9 +17,13 @@ function Contact(){
             <br></br>
 
             
+            
+            <h4>Ukoliko imate bilo kakva pitanja, tu smo na raspolaganju.</h4>
+            <p>Možete nas kontaktirati na {kontakt.telefon} ili posetiti u našoj radnji na adresi {kontakt.adresa}.</p>
+            
+            <p>Naša obuća je namenjena devojčicama od 4 do 14 godina. U pitanju je obuća visokog kvaliteta, rađena po poslednjoj modi.</p>
+            <h4>Čekamo vas!</h4>
 
-            <h4>Ukoliko su Vam potrebe neke dodatne informacije, budite slobodni da nas kontaktirate.</h4>
-            <p>Možete nas kontaktirati na {kontakt.telefon} ili posetiti naš prodajni objekat na adresi {kontakt.adresa}</p>
             <br></br>
 
     

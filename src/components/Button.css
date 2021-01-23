@@ -1,5 +1,5 @@
 :root {
-    --primary: rgb(89, 241, 109);
+    --primary: rgba(241, 89, 221, 0.555);
 }
 
 .btn {
@@ -14,7 +14,7 @@
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: #fff;
-    color: rgb(44, 155, 59);
+    color: rgba(201, 47, 162, 0.774);
     transition: 250ms;
 }
 

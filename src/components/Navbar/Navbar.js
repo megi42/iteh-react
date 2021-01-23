@@ -12,15 +12,15 @@ class Navbar extends Component {
     }
 
     like() {
-        alert("Hvala Vam što ste rekli da Vam se sviđa naša firma!");
+        alert("Označili ste da Vam se sviđa ova stranica! Hvala!");
       }
 
     render() {
         return (
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">GOD<i className="fab fa-react"></i></h1>
+                <h1 className="navbar-logo">Little princess<i className="fab fa-react"></i></h1>
                 <div className="menu-icon" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                   <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
@@ -31,7 +31,7 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button onClick={this.like}>Sviđa mi!</Button>
+                <Button onClick={this.like}>Like</Button>
             </nav>
         )
     }

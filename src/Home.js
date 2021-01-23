@@ -5,7 +5,7 @@ import './Home.css';
 function Home(){
     return(
         <div>
-            <h1>Proizvodi</h1>
+            <h1>Kolekcija jesen/zima za male princeze</h1>
             <div className="products">
             {ImgItems.map((item, index) => {
                         return (
